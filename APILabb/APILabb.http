@@ -1,0 +1,6 @@
+@APILabb_HostAddress = http://localhost:5118
+
+GET {{APILabb_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
