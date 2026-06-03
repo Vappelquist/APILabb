@@ -102,7 +102,7 @@ namespace APILabb.Controllers
             return Ok(user);
         }
         [HttpPost]
-        public async Task<ActionResult<User>> CreateUser(UserCreateDTO dto)
+        public async Task<ActionResult<User>> CreateUser(UserMakerDTO dto)
         {
             var user = new User
             {

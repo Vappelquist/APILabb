@@ -1,6 +1,9 @@
 ﻿
 namespace APILabb.DTO
 {
+    public class UserMakerDTO :UserDTO
+    {
+    }
     public class UserCreateDTO : UserDTO
     {
         public int ID { get; set; }
