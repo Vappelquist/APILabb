@@ -9,9 +9,9 @@ A REST API built with ASP.NET Core and Entity Framework Core. The API manages pe
 - Swagger
 
 ## Database Structure
-- **Person** — stores name and phone number
+- **User** — stores name, id and phone number
 - **Interests** — stores interest name and description
-- **Link** — stores a URL connected to both a person and an interest
+- **Link** — stores a URL connected to user's comments on their interests
 
 ## Endpoints
 
